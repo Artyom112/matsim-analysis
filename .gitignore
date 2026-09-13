@@ -1,3 +1,29 @@
-.DS_Store
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
 .ipynb_checkpoints/
 
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Large data files — not tracked in git
+
+# EDGT mobility survey (PDFs, SQL dump, fixed-width txt, shapefiles)
+data/Demand : Mobility survey/
+
+# Bike counter NDJSON archives (60 files)
+data/Bike : Pedestrian Flows/eco_archives/
+
+# GTFS feeds
+data/gtfs_pt_data/
+data/tam_gtfs.zip
+
+# Generated HTML maps
+map_coverage.html
+*.html
